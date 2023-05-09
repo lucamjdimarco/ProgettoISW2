@@ -1,0 +1,95 @@
+commit 0b237956bdf5d49f83ea8a6f9c7a079d2a562101
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Mon Jul 7 10:02:21 2014 +0000
+
+    [SYNCOPE-532] Fixing the build
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/branches/1_2_X@1608390 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 04d3aa3af4b110843ec06ded7656bf578ee54064
+Author: Massimiliano Perrone <massi@apache.org>
+Date:   Mon Jul 7 09:39:48 2014 +0000
+
+    Fixed #SYNCOPE-532
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/branches/1_2_X@1608387 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 736f0e17429104e89cfd23f0491a82611d4a2926
+Author: Massimiliano Perrone <massi@apache.org>
+Date:   Mon Jul 7 09:38:18 2014 +0000
+
+    Fixed #SYNCOPE-532
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/trunk@1608386 13f79535-47bb-0310-9956-ffa450edef68
+commit 4ce9519705ec1654feff660b4992aac9ad6c90d5
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Mon Mar 4 12:48:36 2019 +0100
+
+    [SYNCOPE-1443] Reconciliation: pagination setup missing
+commit 0e4eed03e565107d7aa2801bc892aa099926fd82
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Fri Jul 28 13:21:55 2017 +0200
+
+    [SYNCOPE-1175] Fixing token generation
+commit d72befc59157c17da6d05f67d4c84e233fbb413e
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Thu Mar 17 09:48:25 2016 +0100
+
+    [SYNCOPE-776] The problem is due to an incomplete step in the release process: when building with -PskipTests, fit/core-reference will be missing Activiti and Camel components; the solution is to use -PskipTests,all
+commit 496a02a51547f2ba4a48d54bee7a8a4de48df076
+Merge: c910a7a66 b81cea711
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Mon May 4 17:57:09 2015 +0200
+
+    [SYNCOPE-664] Merge from 1_2_X
+
+commit b81cea711945ea7e5133371d9f06c42c398650b2
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Mon May 4 17:50:01 2015 +0200
+
+    [SYNCOPE-664] Hiding Oracle behavior in AbstractAttrValue#getStringValue
+commit 4b8b58b867572dbadf2240e337e62f7a6ce9f554
+Merge: c981971c9 2f7fc8993
+Author: Marco Di Sabatino Di Diodoro <mdisabatino@apache.org>
+Date:   Wed Feb 18 14:56:53 2015 +0100
+
+    [SYNCOPE-644] Merge from 1_2_X
+
+commit 2f7fc8993042ee816eb5d24fbb29d7ab7de7091a
+Author: Marco Di Sabatino Di Diodoro <mdisabatino@apache.org>
+Date:   Wed Feb 18 14:09:48 2015 +0100
+
+    [SYNCOPE-644] Fix Role Sync with RoleSchema as accountId
+commit 069b56f92aee2cfc79c326993ac8bf894bb07b04
+Author: Marco Di Sabatino Di Diodoro <mdisabatino@apache.org>
+Date:   Mon Jan 5 11:07:36 2015 +0100
+
+    [SYNCOPE-625] Replaced java.nio for Java 6
+commit 20bfa942ab1b07bef4002a160742ee5b47617204
+Author: Marco Di Sabatino Di Diodoro <mdisabatino@apache.org>
+Date:   Fri Dec 12 12:15:18 2014 +0100
+
+    [SYNCOPE-615] Updated embedded properties and xml files for the installer
+commit 1e5f2a67f6036f5379dcd740d4b1c4799dee7b90
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Wed Jan 15 09:57:17 2014 +0000
+
+    [SYNCOPE-478] Reverting modifications for SYNCOPE-476 and resolving SYNCOPE-477 by using wicket 6.14.0-SNAPSHOT
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/branches/1_1_X@1558329 13f79535-47bb-0310-9956-ffa450edef68
+
+commit af58a6e90bb05888763e3e5422efd235719d7f9b
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Wed Jan 15 09:51:13 2014 +0000
+
+    [SYNCOPE-478] Reverting modifications for SYNCOPE-476 and resolving SYNCOPE-477 by using wicket 6.14.0-SNAPSHOT
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/trunk@1558327 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fcc7059ef14f5c935385c6959e272b2d133e968f
+Author: Francesco Chicchiriccò <ilgrosso@apache.org>
+Date:   Wed Jan 15 08:33:00 2014 +0000
+
+    [SYNCOPE-476] Applying provided patch
+    
+    git-svn-id: https://svn.apache.org/repos/asf/syncope/branches/1_1_X@1558319 13f79535-47bb-0310-9956-ffa450edef68
